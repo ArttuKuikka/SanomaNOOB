@@ -1,0 +1,17 @@
+{
+  "name": "SanomaNOOB",
+  "description": "Lisäosa sanomapro.fi kanssa käytettäväksi, joka estää sivun sulkemisen vahingossa ja varmuuskopio tehtävien vastaukset että et menetä enää yhtään tehtävää virheen takia",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.sanomapro.fi/*" ],
+      "js": ["jquery.js","script.js"]
+    }
+  ],
+  "manifest_version": 2,
+  "icons":{
+  	"16": "logo.jpg",
+    "48": "logo.jpg",
+    "128": "logo.jpg"
+  }
+}
