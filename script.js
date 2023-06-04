@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	$(window).on('beforeunload', function(e) {
-		return 'Oletko varma että haluat poistua?';
+		e.preventDefault();
+		return "Oletko varma että haluat poistua";
 	});
 });
