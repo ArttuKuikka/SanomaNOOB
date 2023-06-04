@@ -6,6 +6,7 @@
     {
       "matches": ["*://kampus.sanomapro.fi/*" ],
       "js": ["jquery.js","script.js"]
+      
     }
   ],
   "manifest_version": 2,
