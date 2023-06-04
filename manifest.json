@@ -10,8 +10,8 @@
   ],
   "manifest_version": 2,
   "icons":{
-  	"16": "logo.jpg",
-    "48": "logo.jpg",
-    "128": "logo.jpg"
+  	"16": "logo16.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
   }
 }
