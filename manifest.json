@@ -5,9 +5,8 @@
   "version": "0.0.1",
   "content_scripts": [
     {
-      "matches": ["*://kampus.sanomapro.fi/*" ],
+      "matches": ["*://*.sanomapro.fi/*" ],
       "js": ["jquery.js","script.js"]
-      
     }
   ],
   
