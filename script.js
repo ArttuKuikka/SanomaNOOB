@@ -8,4 +8,7 @@ $(document).ready(function(){
 	window.addEventListener('beforeunload',(event) =>{
 		event.preventDefault();
 	});
+
+
+	
 });
